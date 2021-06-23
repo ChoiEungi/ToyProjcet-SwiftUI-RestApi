@@ -41,11 +41,6 @@ struct ContentView: View {
                 self.users = users
             }
             
-            WebService().loadUsers { (users) in
-                self.users = users
-                    
-            }
-            
         }
     }
 }
